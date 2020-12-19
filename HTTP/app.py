@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, render_template, request, session #session追加
+from flask import Flask, redirect, url_for, render_template, request, session, flash #flash追加
 from datetime import timedelta #時間情報を用いるため
 
 app = Flask(__name__)
